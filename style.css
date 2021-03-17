@@ -1,31 +1,39 @@
 body {
     font-family: 'Helvetica', sans-serif;
-    background-color: blueviolet;
+    background-color: #5B3B8C;
     color:white;
     text-align: center;
 }
 table {
-    border-collapse: separate;
-    border:solid darkviolet 0px;
+    border:0px solid #8A2BE2 ;
     border-radius: 10px;
     margin: auto;
     padding: 5px;
-    background:darkviolet;
+    background:#8A2BE2;
     padding-bottom: 15px;
 }
 tr, td {
-    border: 1px solid darkviolet;
+    border: 1px solid #8A2BE2;
     text-align: center;
     margin: auto;
-    border-collapse: collapse;
     padding: 15px;
-    background: white;
-    background-color: mediumorchid;
+    background-color: #8A51D4;
 }
 th {
     border-spacing: 1px;
-    background-color: darkviolet;
-    padding: 15px;
-    color:white;
+    background-color: #8A2BE2;
+    padding: 10px;
+}
+.planets {
+    width: 90px;
+    padding: 0px;
+}
+#heading {
+    font-size: 18px;
+    margin: auto;
+}
+#footing {
+    font-size: 15px;
+    margin: auto;
 }
 
